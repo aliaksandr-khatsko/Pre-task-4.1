@@ -31,12 +31,6 @@ namespace Home_Appliances
             var serializer = new XmlSerializer();
             JSONSerializer binSerializer = new JSONSerializer();
 
-            //appliences.Add(audioSystem);
-            //appliences.Add(televisor);
-            //appliences.Add(notebook);
-            //appliences.Add(pc);
-            //appliences.Add(washer);
-
             bool appliactionNeverStop = false;
 
             do
