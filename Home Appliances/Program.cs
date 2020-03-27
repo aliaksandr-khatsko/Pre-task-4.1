@@ -17,16 +17,6 @@ namespace Home_Appliances
         static void Main(string[] args)
         {
 
-            //Televisor televisor = new Televisor("Sony", "HRMN-100", "Red", 1000, 42, "1280x960", "CLD");
-            //MultimediaAcousticSystem audioSystem = new MultimediaAcousticSystem("SVEN", "CDO-50", "Black", 20, 5.1);
-            //Notebook notebook = new Notebook("ASUS", "SX50", "Black", 325, "2x2000GHr", 1000000, 8000, "GeForce NX500", "800x600", 15, true);
-            //PC pc = new PC("Pentium", "5", "Black", 550, "5x2000GHr", 1000000, 4000, "GeForce sX8000", "1920x1080", 24, false);
-            //Fridge fridge = new Fridge("Atlant", "SX200", "White", 500, 1.9, 0.6, 0.7, true);
-            //Washer washer = new Washer("LG", "L5", "Silver", 800, 1.2, 1.0, 0.45, 800, 5);
-            //Ketle ketle = new Ketle("Bosh", "S5", "Silver", 550, 1.2);
-            //VacuumCleaner vacuumCleaner = new VacuumCleaner("Samsung", "GCRE1800", "Purple", 600, 1800);
-
-
             List<ElectricalAppliances> appliences = new List<ElectricalAppliances>();
             var serializer = new XmlSerializer();
             JSONSerializer binSerializer = new JSONSerializer();
