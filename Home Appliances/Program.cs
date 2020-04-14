@@ -57,7 +57,6 @@ namespace Home_Appliances
                     {
                         correctCommand = true;
                     }
-
                     else if (String.Equals(userChoiceFirstMenu, "SAVEXML"))
                     {
                         correctCommand = true;
