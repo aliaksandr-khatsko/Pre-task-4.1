@@ -168,7 +168,6 @@ namespace Home_Appliances
         }
 
     }
-
     //Exception for handling users choice of an appliance
     public class ApplianceDoNotExistException : Exception
     {
